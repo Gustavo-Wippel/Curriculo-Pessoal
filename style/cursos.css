@@ -13,7 +13,7 @@
 
 #cursos {
     background-color: #F7F5E6;
-    width: 875px;
+    width: 50%;
     height: 800px;
     border-radius: 4%;
 }
@@ -27,15 +27,20 @@
     color: #54658F;
 }
 
-#ulCursos { 
+#ulCursos{ 
     Font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
     font-size: 20px;
     position: absolute;
     margin: 0;
     top: 23%;
-    left: 27%;
-    text-align: justify;
+    left: 24%;
     color: #52658F; 
+    width: 100% - 20px;
+    text-align: justify;
+}
+
+#ulCursos li {
+    width: 100% - 20px;
 }
 
 #hrCursos {
@@ -81,6 +86,7 @@
     margin: 0;
     right: 79%;
     margin-top: -10%;
+    left: 10%;
     color:  #54658F;
 
 }
@@ -88,8 +94,7 @@
 #ulFormacoes {
     Font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
     margin: 0;
-    display: flex;
-    margin-left: 0%;
+    margin-left: 5%;
     color:  #54658F;
     font-size: 20px;
 }

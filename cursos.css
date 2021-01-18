@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+#div-main {
+    height: 100vh;
+    width: 100%;
+    background-color:  #7CDBD5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cursos {
+    background-color: #F7F5E6;
+    width: 875px;
+    height: 800px;
+    border-radius: 4%;
+}
+
+#cursosH1 {
+    Font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    position: absolute;
+    margin: 0;
+    top: 15%;
+    left: 29%;
+    color: #54658F;
+}
+
+#ulCursos { 
+    Font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    font-size: 20px;
+    position: absolute;
+    margin: 0;
+    top: 23%;
+    left: 27%;
+    text-align: justify;
+    color: #52658F; 
+}
+
+#hrCursos {
+    position: absolute;
+    margin: 0;
+    top: 20%;
+    left: 28%;
+    width: 100px;
+    display: flex;
+    color: #52658F;
+}
+
+#hrSeparador {
+    position: absolute;
+    margin: 0;
+    top: 33%;
+    left: 28%;
+    width: 500px;
+    display: flex;
+    color: #52658F;
+}
+
+
+
+#paragrafoFormacoes {
+    Font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    font-size: 20px;
+    position: absolute;
+    margin: 0;
+    top: 2%;
+    left: 23%;
+    text-align: justify;
+    color: #52658F; 
+}
+
+#formacoes {
+    position: absolute;
+
+}
+
+#formacoesH1 {
+    position: absolute;
+    margin: 0;
+    right: 79%;
+    margin-top: -10%;
+    color:  #54658F;
+
+}
+
+#ulFormacoes {
+    Font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    margin: 0;
+    display: flex;
+    margin-left: 0%;
+    color:  #54658F;
+    font-size: 20px;
+}
+
+#botao {
+    position: absolute;
+    margin: 0;
+    top: 70%;
+    left: 45%;
+    color: #333A56;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#botao:hover {
+    background-color: #52658F;
+
+}
+
+
